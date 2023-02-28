@@ -1,0 +1,5 @@
+db.team.find().sort({points: -1}).limit(1)
+db.team.find().sort({rebounds: -1}).limit(1)
+db.team.find().sort({assists: -1}).limit(1)
+db.team.find().sort({points: -1})
+db.team.find().sort({points: 1})
